@@ -23,7 +23,7 @@ public class JPAConfiguration {
 			DataSource ds) {
 
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-
+		
 		em.setDataSource(ds);
 		em.setPackagesToScan(new String[] { "br.com.casadocodigo.loja.models" });
 
