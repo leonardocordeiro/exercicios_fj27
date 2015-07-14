@@ -19,8 +19,7 @@ public class JPAConfiguration {
 	// JPA
 
 	@Bean
-	public LocalContainerEntityManagerFactoryBean entityManagerFactory(
-			DataSource ds) {
+	public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource ds) {
 
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 		
